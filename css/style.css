@@ -17,7 +17,6 @@ Table Of Contents:
 - 3vo Fonts
 ******************************************/
 
-
 /**************************/
 /*     General Styles     */
 /**************************/
@@ -25,10 +24,9 @@ Table Of Contents:
 	--primary: #1c262f;
 	--primary-light: #212d37;
 	--secondary: #c1905b;
-	--tertiary: #FFE4C6;
-	--gradient: linear-gradient(to right, #c1905b, #FFE4C6);
+	--tertiary: #ffe4c6;
+	--gradient: linear-gradient(to right, #c1905b, #ffe4c6);
 }
-
 
 h1,
 h2,
@@ -61,7 +59,7 @@ a {
 }
 
 li {
-  	list-style-type: none;
+	list-style-type: none;
 }
 
 /* Section Background */
@@ -80,7 +78,7 @@ li {
 .contact,
 .testimonial,
 .footer {
-  	background-color: var(--primary);
+	background-color: var(--primary);
 }
 
 .about,
@@ -88,11 +86,11 @@ li {
 .company,
 .newsletter,
 .location {
-  	background-color: var(--primary-light);
+	background-color: var(--primary-light);
 }
 
 .bottom {
-  	background-color: black;
+	background-color: black;
 }
 
 /* Gradient Border And Background On Icons */
@@ -105,13 +103,7 @@ li {
 .location .far,
 .location .fas {
 	padding: 15px 0;
-	background: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(#c1905b),
-		to(#FFE4C6)
-	);
+	background: -webkit-gradient(linear, left top, left bottom, from(#c1905b), to(#ffe4c6));
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -126,7 +118,6 @@ li {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
 
 /**********************/
 /*     Navigation     */
@@ -145,8 +136,8 @@ li {
 }
 
 .navbar .logo-image img {
-	width: 32px; /* original size 108px */
-	height: 32px;
+	width: 60px; /* original size 108px */
+	height: 60px;
 }
 
 .navbar .logo-text {
@@ -200,7 +191,7 @@ li {
 }
 
 .navbar .dropdown-item:hover {
-  	background-color: var(--primary);
+	background-color: var(--primary);
 }
 
 .navbar .dropdown-divider {
@@ -226,13 +217,7 @@ li {
 }
 
 .navbar .fa-stack-2x {
-	background: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		from(#c1905b),
-		to(#FFE4C6)
-	);
+	background: -webkit-gradient(linear, left top, left bottom, from(#c1905b), to(#ffe4c6));
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -245,11 +230,11 @@ li {
 }
 
 .navbar .fa-stack:hover .fa-stack-2x {
-  	color: var(--primary);
+	color: var(--primary);
 }
 
 .navbar .fa-stack:hover .fa-stack-1x {
-  	color: var(--primary);
+	color: var(--primary);
 }
 
 .navbar .navbar-toggler {
@@ -257,7 +242,6 @@ li {
 	border: none;
 	font-size: 1.25rem;
 }
-
 
 /****************/
 /*     Home     */
@@ -271,29 +255,27 @@ li {
 }
 
 .para {
-  	width: 50%;
+	width: 50%;
 }
 
 .para-light {
-  	opacity: 0.7;
+	opacity: 0.7;
 }
-
 
 /***********************/
 /*     Information     */
 /***********************/
 .information .container-fluid .row div:first-child {
-  	background-color: var(--primary);
+	background-color: var(--primary);
 }
 
 .information .container-fluid .row div:last-child {
-  	background-color: white;
+	background-color: white;
 }
 
 .information .container-fluid .row div:nth-child(2) {
-  	background-color: var(--primary-light);
+	background-color: var(--primary-light);
 }
-
 
 /******************/
 /*     Button     */
@@ -356,7 +338,6 @@ li {
 	transform: translate(5px, 5px);
 }
 
-
 /********************/
 /*     Services     */
 /********************/
@@ -375,7 +356,6 @@ li {
 	box-shadow: 5px 5px 0px 0px #c1905b;
 }
 
-
 /*****************/
 /*     Plans     */
 /*****************/
@@ -383,7 +363,6 @@ li {
 	padding: 20px;
 	border: 2px solid white;
 }
-
 
 /************************/
 /*     Testimonials     */
@@ -394,7 +373,7 @@ li {
 }
 
 .slider-1 .section-title {
-  	text-align: center;
+	text-align: center;
 }
 
 .slider-1 .h2-heading {
@@ -410,7 +389,7 @@ li {
 }
 
 .slider-1 .slider-container {
-  	position: relative;
+	position: relative;
 }
 
 .slider-1 .swiper-container {
@@ -420,7 +399,7 @@ li {
 
 .slider-1 .swiper-button-prev,
 .slider-1 .swiper-button-next {
-  	color: var(--primary);
+	color: var(--primary);
 }
 
 .slider-1 .swiper-button-prev:focus,
@@ -457,11 +436,11 @@ li {
 }
 
 .slider-1 .card-body {
-  	padding: 0;
+	padding: 0;
 }
 
 .slider-1 .testimonial-text {
-  	margin-bottom: 0.75rem;
+	margin-bottom: 0.75rem;
 }
 
 .slider-1 .testimonial-author {
@@ -477,7 +456,7 @@ li {
 
 /* Dropdown Menu */
 .navbar .dropdown .dropdown-menu {
-  	animation: fadeDropdown 0.2s; /* required for the fade animation */
+	animation: fadeDropdown 0.2s; /* required for the fade animation */
 }
 
 @-webkit-keyframes fadeDropdown {
@@ -500,7 +479,6 @@ li {
 	}
 }
 
-
 /**********************/
 /*     Newsletter     */
 /**********************/
@@ -515,7 +493,6 @@ li {
 	padding-top: 0.775rem;
 	padding-bottom: 0.775rem;
 }
-
 
 /******************************/
 /*     Back To Top Button     */
@@ -536,7 +513,7 @@ li {
 }
 
 #myBtn:hover {
-  	background-color: #0f0f11;
+	background-color: #0f0f11;
 }
 
 #myBtn img {
@@ -544,7 +521,6 @@ li {
 	margin-left: 0.125rem;
 	margin-bottom: 0.25rem;
 }
-
 
 /***********************/
 /*     Extra Pages     */
@@ -556,7 +532,7 @@ li {
 }
 
 .ex-header h1 {
-  	color: #fff;
+	color: #fff;
 }
 
 .ex-basic-1 .list-unstyled .fas {
@@ -565,7 +541,7 @@ li {
 }
 
 .ex-basic-1 .list-unstyled .flex-grow-1 {
-  	margin-left: 0.5rem;
+	margin-left: 0.5rem;
 }
 
 .ex-basic-1 .text-box {
@@ -584,7 +560,7 @@ li {
 }
 
 .ex-cards-1 .card .fa-stack-2x {
-  	color: var(--secondary);
+	color: var(--secondary);
 }
 
 .ex-cards-1 .card .fa-stack-1x {
@@ -595,14 +571,13 @@ li {
 }
 
 .ex-cards-1 .card .list-unstyled .flex-grow-1 {
-  	margin-left: 2.25rem;
+	margin-left: 2.25rem;
 }
 
 .ex-cards-1 .card .list-unstyled .flex-grow-1 h5 {
 	margin-top: 0.125rem;
 	margin-bottom: 0.5rem;
 }
-
 
 /*************************/
 /*     Media Queries     */
@@ -722,5 +697,3 @@ li {
 		background-size: 22px 34px;
 	}
 }
-
-
